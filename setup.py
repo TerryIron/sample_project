@@ -8,7 +8,7 @@ with open(os.path.join(here, 'README.md')) as f:
 with open(os.path.join(here, 'CHANGELOG.md')) as f:
     CHANGES = f.read()
 
-import eleven
+import sample_project
 
 requires = [
     'SQLAlchemy',
@@ -21,8 +21,8 @@ tests_require = [
     'pytest-cov',
     ]
 
-setup(name='eleven',
-      version='.'.join([str(v) for v in eleven.__version__]),
+setup(name='sample_project',
+      version='.'.join([str(v) for v in sample_project.__version__]),
       description='',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
