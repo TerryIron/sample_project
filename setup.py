@@ -13,13 +13,13 @@ import sample_project
 requires = [
     'SQLAlchemy',
     'six',
-    ]
+]
 
 tests_require = [
     'WebTest >= 1.3.1',  # py3 compat
     'pytest',  # includes virtualenv
     'pytest-cov',
-    ]
+]
 
 setup(name='sample_project',
       version='.'.join([str(v) for v in sample_project.__version__]),
